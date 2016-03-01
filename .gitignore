@@ -24,7 +24,7 @@ Build/*
 TestScene*
 Output/
 Output/*
-
+obj/
 
 
 
