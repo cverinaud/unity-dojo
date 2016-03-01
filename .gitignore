@@ -1,0 +1,47 @@
+# This file will cause git to exclude various Unity project      #
+# files/folders which shouldn't be put into source control       #
+# This is based in part on an "excludes" file provided by Roberto#
+##################################################################
+
+# Unity folders #
+#################
+Library/
+Temp/
+Library/AssetImportState
+Library/AssetServerCacheV3
+Library/FailedAssetImports.txt
+Library/ScriptAssemblies
+Library/ScriptMapper
+Library/assetDatabase3
+Library/cache
+Library/expandedItems
+Library/metadata
+Library/previews
+Library/guidmapper
+Temp/*
+Library/*
+Build/*
+TestScene*
+Output/
+Output/*
+
+
+
+
+# .NET files #
+##############
+*.sln
+*.csproj
+*.userprefs
+*.pidb
+
+
+
+# Unity generated?
+*.unityproj
+
+# OS generated files #
+######################
+.DS_Store*
+ehthumbs.db
+Thumbs.db
